@@ -1,0 +1,10 @@
+.Navbar {
+  display: flex;
+  padding: 10px;
+  gap: 5px;
+  background-color: blueviolet;
+}
+
+.Navbar h3 {
+  color: white;
+}
