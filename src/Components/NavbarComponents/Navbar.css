@@ -5,6 +5,9 @@
   background-color: blueviolet;
 }
 
-.Navbar h3 {
+.Navbar a {
   color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "Times New Roman", Times, serif;
 }

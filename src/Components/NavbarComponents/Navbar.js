@@ -1,11 +1,12 @@
 import "./Navbar.css";
+import LinkComponent from "../LinkComponent";
 
 export default function NavBar() {
   return (
     <nav className="Navbar">
-      <h3>Home</h3>
-      <h3>About</h3>
-      <h3>Contact us</h3>
+      <LinkComponent name="Home" link="#" />
+      <LinkComponent name="About" link="#" />
+      <LinkComponent name="Contact us" link="#" />
     </nav>
   );
 }
