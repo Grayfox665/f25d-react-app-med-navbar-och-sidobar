@@ -1,17 +1,25 @@
-.Navbar {
+.navbar {
   display: flex;
   padding: 10px;
   height: 60px;
-  gap: 5px;
+  gap: 1rem;
   background-color: blueviolet;
   z-index: 1000;
+  align-items: center;
 }
 
-.Navbar a {
+.navbar a {
   color: white;
   font-size: 1.5rem;
   font-weight: 500;
   font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navbar a:hover {
+  background-color: rgb(126, 40, 206);
+  text-decoration: underline;
 }
 
 .sidebar-toggle {
@@ -23,5 +31,6 @@
 }
 
 .sidebar-toggle:hover {
-  background-color: blue;
+  background-color: rgb(126, 40, 206);
+  border-radius: 5px;
 }

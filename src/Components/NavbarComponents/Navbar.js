@@ -3,7 +3,7 @@ import LinkComponent from "../LinkComponent";
 
 export default function NavBar({ toggleSidebar }) {
   return (
-    <nav className="Navbar">
+    <nav className="navbar">
       <button className="sidebar-toggle" onClick={toggleSidebar}>
         <span className="material-symbols-outlined">dehaze</span>
       </button>
