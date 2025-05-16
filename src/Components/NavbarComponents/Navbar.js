@@ -1,13 +1,12 @@
 import "./Navbar.css";
 import LinkComponent from "../LinkComponent";
-import { useState } from "react";
 
-export default function NavBar() {
-  const [isSideBarOpen, setIsSideBarOpen] = useState(false);
-
+export default function NavBar({ toggleSidebar }) {
   return (
-    <nav className="Navbar" onClick={() => setIsSideBarOpen(!isSideBarOpen)}>
-      <button className="sidebar-toggle"></button>
+    <nav className="Navbar">
+      <button className="sidebar-toggle" onClick={toggleSidebar}>
+        <span className="material-symbols-outlined">dehaze</span>
+      </button>
       <LinkComponent name="Home" link="#" />
       <LinkComponent name="About" link="#" />
       <LinkComponent name="Contact us" link="#" />

@@ -1,6 +1,7 @@
 .Navbar {
   display: flex;
   padding: 10px;
+  height: 60px;
   gap: 5px;
   background-color: blueviolet;
 }
@@ -10,4 +11,16 @@
   font-size: 1.5rem;
   font-weight: 500;
   font-family: "Times New Roman", Times, serif;
+}
+
+.sidebar-toggle {
+  border: none;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.sidebar-toggle:hover {
+  background-color: blue;
 }
