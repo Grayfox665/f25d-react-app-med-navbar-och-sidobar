@@ -4,6 +4,7 @@
   height: 60px;
   gap: 5px;
   background-color: blueviolet;
+  z-index: 1000;
 }
 
 .Navbar a {
