@@ -6,6 +6,7 @@
   background-color: blueviolet;
   z-index: 1000;
   align-items: center;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.3);
 }
 
 .navbar a {
@@ -15,6 +16,7 @@
   font-family: "Times New Roman", Times, serif;
   text-decoration: none;
   padding: 10px;
+  border-radius: 5px;
 }
 
 .navbar a:hover {
@@ -33,4 +35,10 @@
 .sidebar-toggle:hover {
   background-color: rgb(126, 40, 206);
   border-radius: 5px;
+}
+
+@media (width <= 400px) {
+  .navbar a {
+    font-size: 20px;
+  }
 }

@@ -15,6 +15,7 @@
 
 .sidebar.open {
   left: 0;
+  box-shadow: 2px 0px 0px 0px rgba(0, 0, 0, 0.3);
 }
 
 .sidebar a {
@@ -30,4 +31,10 @@
 .sidebar a:hover {
   text-decoration: underline;
   background-color: blueviolet;
+}
+
+@media (width <= 400px) {
+  .sidebar.open {
+    left: -100px;
+  }
 }
